@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: 600px;
+    border: 3px solid white;
+    box-sizing: content-box;
+    background: url(/img/bg.png);
+}
+.cell{
+    border: 1px solid red;
+    max-height: 30px;
+    width: 30px;
+}
+.cell.figure{
+    background: url(/img/yellow.png);
+}
+#boxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    padding: 16px;
+    margin:10px 90px;
+}
+
