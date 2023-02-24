@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background:url(/img/bodyBg.jpg)
 }
 #container{
     display: flex;
@@ -13,17 +13,20 @@ body{
     margin-top: 150px;
     width: 300px;
     height: 600px;
-    border: 3px solid white;
+    border: 5px solid rgb(75, 75, 75);
     box-sizing: content-box;
     background: url(/img/bg.png);
 }
 .cell{
-    border: 1px solid red;
+    border: 1px solid rgba(0, 0, 0, 0.055);
     max-height: 30px;
     width: 30px;
 }
 .cell.figure{
     background: url(/img/yellow.png);
+}
+.cell.freze{
+    background-color: rgba(255, 0, 0, 0.685);
 }
 #boxContainer{
     display: flex;
